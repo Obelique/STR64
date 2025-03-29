@@ -1,0 +1,17 @@
+* { margin: 0 auto; }
+
+html, body { display: grid !important; background: #556B2F !important; text-align: center !important; color: #22CE83 !important; }
+
+body { font-family: "Roboto"; font-size: 15pt; }
+
+h1 { color: #3CB371; }
+
+body > div { display: block; }
+
+span > h4 { background: green; padding: 40px; color: yellowgreen; text-transform: uppercase; }
+
+span + p { background: #F08080; }
+
+span > p { display: block !important; background: #E8A317 !important; width: 650px; }
+
+input[type=text], input[type=password], input[type=email] { font-family: "Roboto"; font-size: 15pt; background: #FFA500 !important; display: block !important; }
